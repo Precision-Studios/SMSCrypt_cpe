@@ -7,12 +7,12 @@ buildscript {
     }
     dependencies {
         classpath "io.realm:realm-gradle-plugin:10.16.1"
-        classpath 'com.android.tools.build:gradle:8.1.2'
+        classpath 'com.android.tools.build:gradle:8.8.0'
     }
 }
 
 plugins {
-    id 'com.android.application' version '8.1.2' apply false
+    id 'com.android.application' version '8.8.0' apply false
 }
 
 tasks.register('clean', Delete) {
